@@ -1,16 +1,48 @@
-# React + Vite
+# E-Commerce App – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full-stack e-commerce web application frontend built with React.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+Coming soon (deployment in progress)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 About
+Frontend of a full-stack e-commerce application. Features user authentication,
+product browsing with filters, shopping cart and order management.
 
-## React Compiler
+## ✨ Features
+- User registration and login (JWT)
+- Product browsing with gender and category filters
+- Shopping cart with size and quantity selection
+- Responsive design
+- Toast notifications
+- Protected routes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- React
+- React Router
+- Tailwind CSS
+- Axios
+- React Hot Toast
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
+├── src/
+│   ├── api/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   └── main.jsx
+├── index.html
+└── package.json
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Setup
+git clone https://github.com/selimbasica1/Full-Stack-E-Commerce-Web-Aplikacija.git
+cd Full-Stack-E-Commerce-Web-Aplikacija
+npm install
+npm run dev
+
+## ⚠️ Note
+This is the frontend only. Backend repo is available here:
+https://github.com/selimbasica1/Full-Stack-E-Commerce-Web-Aplikacija-Backend
+
+## 📬 Contact
+- Email: selimbasica1@gmail.com
